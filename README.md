@@ -22,7 +22,7 @@ lalu, setelah kita membuat database. kita masuk kedalam database tersebut dengan
 
 `USE latihan2;`
 
-![alt text](ss/1.PNG)
+![alt text](ss/1.png)
 
 **2. Buat sebuah tabel dengan nama biodata (nama, alamat) didalam database latihan2!**
 
@@ -37,7 +37,7 @@ Untuk membuat Tabel gunakan perintah sebagai berikut :
     alamat text
     );`
 
-![alt text](ss/2.PNG)
+![alt text](ss/2.png)
 
 **3. Tambahkan sebuah kolom keterangan (varchar 15), sebagai kolom terakhir!**
 
@@ -45,7 +45,7 @@ Contoh :
 
 `ALTER TABLE biodata ADD COLUMN keterangan VARCHAR (15);`
 
-![alt text](ss/3.PNG)
+![alt text](ss/3.png)
 
 **4.Tambahkan kolom id(int 11) di awal (sebagai kolom pertama)!**
 
@@ -53,7 +53,7 @@ Untuk menambahkan kolom pertama yaitu dengan perintah sebagai berikut :
 
 `ALTER TABLE biodata ADD COLUMN id int FIRST; `
 
-![alt text](ss/4.PNG)
+![alt text](ss/4.png)
 
 **5. Sisipkan sebuah kolom dengan nama phone (varchar 15) setelah kolom alamat!**
 
